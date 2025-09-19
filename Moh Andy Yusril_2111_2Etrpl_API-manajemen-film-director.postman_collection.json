@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "5cdbad81-acb5-401d-9831-879e958c17af",
+		"name": "API-manajemen-film/director",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48009584",
+		"_collection_link": "https://nurbintang494-7821958.postman.co/workspace/Nur-Bintang's-Workspace~8d314349-6698-4f35-876a-10c8b09e69af/collection/48009584-5cdbad81-acb5-401d-9831-879e958c17af?action=share&source=collection_link&creator=48009584"
+	},
+	"item": [
+		{
+			"name": "movies",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "movies",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3200/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "director",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3200/directors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3200",
+					"path": [
+						"directors"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
